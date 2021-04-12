@@ -1,0 +1,26 @@
+scalar Date
+
+type Option {
+  _id: ID
+  position: Int
+  label: String!
+  icon: String!
+  values: [String]!
+}
+
+type Config {
+  _id: ID
+  jsonConfig: String!
+  validDate: String!
+}
+
+type Query {
+  getOptions: [Option]
+  getConfigs: [Config]
+}
+
+type Mutation {
+  addConfig(jsonConfig: String!, validDate: String!): Config!
+  updateConfig(configId: ID!, validDate: String!): Config!
+  deleteConfig(configId: ID!): Config!
+}

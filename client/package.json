@@ -1,0 +1,36 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.9.19",
+    "apollo-boost": "^0.4.9",
+    "core-js": "3.6.5",
+    "graphql": "15.3.0",
+    "lodash": "^4.17.21",
+    "quasar": "^1.15.5",
+    "vue": "^2.6.12",
+    "vue-apollo": "3.0.4",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.11",
+    "@vue/cli-plugin-router": "~4.5.11",
+    "@vue/cli-plugin-vuex": "~4.5.11",
+    "@vue/cli-service": "~4.5.11",
+    "stylus": "^0.54.8",
+    "stylus-loader": "^3.0.2",
+    "vue-cli-plugin-quasar": "2.0.2",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

@@ -25,7 +25,8 @@ Object.keys(defaultTheme).forEach(element => {
 Vue.use(VueApollo)
 
 export const apolloClient = new ApolloClient({
-  uri: 'http://localhost:4000/graphql'
+//  uri: 'http://localhost:4000/graphql'
+    uri: 'https://vuevalid.herokuapp.com/graphql'
 })
 
 const apolloProvider = new VueApollo({
